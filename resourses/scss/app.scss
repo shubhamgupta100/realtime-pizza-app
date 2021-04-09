@@ -197,6 +197,13 @@ section.status {
     .status-box ul li span:before {
         font-size: 34px;
     }
+    .navx{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .navx li {
+        padding-bottom: 15px !important;
+    }
 }
 
 .StripeElement {
