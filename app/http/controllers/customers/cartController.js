@@ -1,14 +1,3 @@
-// function cartController() {
-//     return {
-//         index(req,res) {
-//           res.render('customers/cart');
-//         }
-//     }    
-//   }
-  
-  
-//   module.exports = cartController;
-
 
 module.exports.cart = function(req,res){
 

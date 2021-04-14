@@ -8,7 +8,8 @@
 
 
 // module.exports = homeController;
-const Menu = require('../../models/menu')
+const Menu = require('../../models/menu');
+const User = require('../../models/user');
 module.exports.home = async function(req,res){
     //  Menu.find().then(function(pizzas){
     //     console.log(pizzas);
@@ -16,7 +17,8 @@ module.exports.home = async function(req,res){
 
     //  })
 
-    const pizzas = await Menu.find()
+    const pizzas = await Menu.find();
+   
     // console.log(pizzas);
     return  res.render('home',{pizzas:pizzas});
 
